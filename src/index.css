@@ -14,10 +14,7 @@ body {
   color: #ffc404;
 }
 
-.text-button:hover,
-.text-button:active {
-  color: #ffab04;
-}
+
 
 .button {
   font: inherit;
@@ -29,9 +26,3 @@ body {
   border-radius: 4px;
 }
 
-.button:hover,
-.button:active {
-  background-color: #ffab04;
-  border-color: #ffab04;
-  color: #1f1a09;
-}
