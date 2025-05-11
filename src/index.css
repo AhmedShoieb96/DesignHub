@@ -2,7 +2,7 @@
 body {
   margin: 0;
 
-  
+  font-family: 'Oswald', sans-serif !important;
 
 }
 
@@ -26,3 +26,34 @@ body {
   border-radius: 4px;
 }
 
+.whatsapp-icon{
+  position: fixed;
+  bottom: 40px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.34);
+  z-index: 1000;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+.faWhatsapp{
+  color: #fff;
+  font-size: 50px;
+}
+
+.phone-icon{
+  position: fixed;
+  bottom: 120px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.34);
+  z-index: 1000;
+  padding: 13px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.fa-phone{
+  color: #fff;
+  font-size: 40px;
+}
