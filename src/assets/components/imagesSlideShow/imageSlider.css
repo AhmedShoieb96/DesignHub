@@ -1,0 +1,30 @@
+.image{
+    max-width:400px;
+    height: 400px;
+}
+
+.imageSlider-container{
+    height: 400px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+
+}
+.title-Services{
+    text-align: center;
+    color:#3fb1cd ;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+
+}
+.title-Services::after{
+    content: " ";
+    width: 200px;
+    height: 2px;
+    background-color: #3fb1cd;
+    position: absolute;
+    left: 47%;
+    margin-left: -50px;
+    top: 40px;
+}
