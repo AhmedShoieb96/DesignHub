@@ -1,7 +1,7 @@
 import './NavBar.css'
 import logo from '../../images/logo.png'
 import Button from '../../utilities/ui/Button.jsx'
-
+import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
 export default function HomeSideBar() {
@@ -21,13 +21,13 @@ export default function HomeSideBar() {
        <ul className={`navLinks ${menuOpen ? 'active' : ''}`}>
         <li>
           <Button textOnly className="btn">
-            Home
+            <Link to="/" className="btn">Home</Link>
           </Button>
         </li>
 
         <li>
           <Button textOnly className="btn">
-            About Us
+            <Link to="/about" className="btn">About Us</Link>
           </Button>
         </li>
 
@@ -39,12 +39,13 @@ export default function HomeSideBar() {
           onClick={() => setServicesOpen((prev) => !prev)}
         >
           <Button textOnly className="btn">
-            Services
+          <Link to="/services" className="btn">Services</Link>
           </Button>
           <div className={`dropdownMenu ${servicesOpen ? 'show' : ''}`}>
-            <a href="#">Interior Design</a>
-            <a href="#">Exterior Design</a>
-            <a href="#">Construction</a>
+            <Link to="/interior">Interior Design</Link>
+            <Link to="/exterior">Exterior Design</Link>
+            <Link to="/construction">Construction</Link>
+            
           </div>
         </li>
 
@@ -56,23 +57,24 @@ export default function HomeSideBar() {
           onClick={() => setProjectsOpen((prev) => !prev)}
         >
           <Button textOnly className="btn">
-            Projects
+          <Link to="/projects" className="btn">Projects</Link>
           </Button>
           <div className={`dropdownMenu ${projectsOpen ? 'show' : ''}`}>
-            <a href="#">3D</a>
-            <a href="#">Execution Supervision</a>
-            <a href="#">TurnKey Solution</a>
+            <Link to="/3d">3D</Link>
+            <Link to="/supervision">Execution Supervision</Link>
+            
+          
           </div>
         </li>
 
         <li>
           <Button textOnly className="btn">
-            Blogs
+            <Link to="/blogs" className="btn">Blogs</Link>
           </Button>
         </li>
         <li>
           <Button textOnly className="btn">
-            Contact Us
+            <Link className="btn" to="/contact" >Contact</Link>
           </Button>
         </li>
         <li>
