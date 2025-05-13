@@ -1,0 +1,291 @@
+/* Root footer wrapper */
+.footer {
+  background-color: #379db6;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+  padding: 3rem 0 0 0;
+  box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.03);
+  position: relative;
+  width: 100%;
+}
+
+/* Main container */
+.footer__container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 0 2rem;
+  justify-content: space-between;
+  background-color: #f9fafb;
+}
+
+/* Each of the sections */
+.footer__section {
+  flex: 1 1 250px;
+  margin-bottom: 1.5rem;
+  background-color: #f9fafb;
+}
+
+.footer__about {
+  flex: 1 1 300px;
+}
+
+.footer__links {
+  flex: 1 1 180px;
+}
+
+.footer__social {
+  flex: 1 1 250px;
+}
+
+.footer__info {
+  flex: 1 1 300px;
+}
+
+/* Logo / About */
+.footer__about .footer__logo {
+  width: 130px;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.footer__about .footer__logo:hover {
+  transform: scale(1.05);
+}
+
+.footer__about .footer__text {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+}
+
+/* Section headings */
+.footer__heading {
+  position: relative;
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #379db6;
+  padding-bottom: 0.6rem;
+}
+
+.footer__heading::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 35px;
+  height: 3px;
+  background: linear-gradient(90deg, #379db6 0%, #3abf95 100%);
+  border-radius: 2px;
+}
+
+/* Links list */
+.footer__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list li + li {
+  margin-top: 0.75rem;
+}
+
+.footer__list a {
+  color: #4b5563;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+}
+
+.footer__list a:hover {
+  color: #3abf95;
+  transform: translateX(5px);
+}
+
+.footer__list a::before {
+  content: '›';
+  margin-right: 0.5rem;
+  color: #3abf95;
+  font-weight: bold;
+}
+
+/* Social icons */
+.footer__icons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer__icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: rgba(55, 157, 182, 0.1);
+  color: #379db6;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.footer__icons a:hover {
+  background-color: #379db6;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(55, 157, 182, 0.3);
+}
+
+.footer__icons .behance-icon {
+  font-size: 1.2rem;
+}
+
+/* Contact info */
+.footer__contact {
+  font-size: 0.95rem;
+  color: #4b5563;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.footer__contact a {
+  color: #379db6;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer__contact a:hover {
+  color: #3abf95;
+}
+
+.footer__contact-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+}
+
+.footer__contact-icon {
+  margin-right: 0.75rem;
+  color: #379db6;
+  flex-shrink: 0;
+  margin-top: 0.25rem;
+}
+
+/* Newsletter form */
+.footer__newsletter {
+  margin-top: 1rem;
+}
+
+.footer__form {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.footer__input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px 0 0 4px;
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s ease;
+  background-color: white;
+}
+
+.footer__input:focus {
+  border-color: #379db6;
+}
+
+.footer__button {
+  background: linear-gradient(90deg, #379db6 0%, #3abf95 100%);
+  color: white;
+  border: none;
+  padding: 0 1.25rem;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.footer__button:hover {
+  opacity: 0.9;
+}
+
+/* Company info section */
+.footer__company-info {
+  margin-top: 1rem;
+  line-height: 1.7;
+  color: #4b5563;
+  font-size: 0.95rem;
+}
+
+.footer__team-member {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.footer__team-member span {
+  font-weight: 600;
+  color: #379db6;
+  margin-right: 0.5rem;
+}
+
+.footer__address {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.footer__founded {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: rgba(55, 157, 182, 0.1);
+  border-radius: 4px;
+  font-size: 0.9rem;
+  color: #379db6;
+}
+
+/* Bottom bar */
+.footer__bottom {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 1.25rem 0;
+  margin-top: 3rem;
+  background: linear-gradient(90deg, #379db6 0%, #3abf95 100%);
+  color: #fff;
+  letter-spacing: 0.5px;
+  width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .footer__container {
+    gap: 2rem;
+  }
+  
+  .footer__section {
+    flex: 1 1 45%;
+  }
+  
+  .footer__about, .footer__info {
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__container {
+    gap: 2rem;
+    padding: 0 1.5rem;
+  }
+  
+  .footer__section {
+    flex: 1 1 100%;
+  }
+}
