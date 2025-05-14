@@ -1,6 +1,13 @@
+ HEAD
 import React, { useState, useEffect } from 'react';
 import './imageSlider.css';
 
+
+
+import React, { useState, useEffect } from 'react';
+import './imageSlider.css';
+
+ origin/main
 export default function Image({ src, alt, className = '' }) {
   const [loaded, setLoaded] = useState(false);
   const [error, setError] = useState(false);
@@ -38,5 +45,4 @@ export default function Image({ src, alt, className = '' }) {
         className={classes}
       />
     </div>
-  );
-}
+  )}
