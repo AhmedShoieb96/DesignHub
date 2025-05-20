@@ -1,5 +1,5 @@
 
-import cover from '../../images/COVER.jpg'
+import cover from '../../images/CovarShared.jpg'
 import './SharedHeroSection.css'
 const SharedHeroSection = ({children}) => {
   
