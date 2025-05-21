@@ -40,9 +40,9 @@ export default function ImageSlider() {
   }, [slides.length]);
   
   // Function to go to a specific slide
-  const goToSlide = (index) => {
-    setActiveIndex(index);
-  };
+  // const goToSlide = (index) => {
+  //   setActiveIndex(index);
+  // };
   
   // Handle touch events for mobile swipe
   const handleTouchStart = (e) => {
