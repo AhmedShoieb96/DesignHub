@@ -10,7 +10,7 @@ import './App.css'
 
 import Home from './assets/pages/Home'
 import AboutUs from './assets/pages/AboutUs'
-import Interior from './assets/pages/Interiors'
+import Interior from './assets/pages/Interior'
 import Exterior from './assets/pages/Exteriors'
 import Construction from './assets/pages/Constractions'
 import Blogs from './assets/pages/Blogs'

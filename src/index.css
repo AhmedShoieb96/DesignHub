@@ -57,3 +57,53 @@ body {
   color: #fff;
   font-size: 20px;
 }
+
+.about-us-first-container{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 60px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+ .img {
+ border-radius: 20%;
+  max-width: 500px;
+  height: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+
+}  
+.img:hover {
+  transform: scale(1.05);
+}
+.about-us-text{
+  max-width: 500px; 
+  font-family: 'Oswald', sans-serif !important;
+  font-size: 20px;
+  color: #4b5563;
+  
+}
+
+.about-us-second-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.about-us-second-container-card{
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgb(69, 117, 91);
+  max-width: 300px;
+  min-height: 200px;
+  text-align: center;
+  color: #4b5563;
+  transition: transform 0.3s ease;
+}
+.about-us-second-container-card:hover {
+  transform:translate(0px, -10px);
+}

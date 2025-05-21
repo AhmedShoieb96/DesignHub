@@ -141,17 +141,7 @@ export default function ImageSlider() {
         </div>
       </div>
       
-      {/* Indicator dots */}
-      <div className="slider-indicators">
-        {slides.map((_, index) => (
-          <button
-            key={index}
-            className={`slider-indicator ${activeIndex === index ? 'active' : ''}`}
-            onClick={() => goToSlide(index)}
-            aria-label={`Go to slide ${index + 1}`}
-          />
-        ))}
-      </div>
+  
     </div>
   );
 }

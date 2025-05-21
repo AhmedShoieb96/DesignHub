@@ -4,7 +4,7 @@ import PhoneIcon from '../components/phoneIcon/PhoneIcon'
 import ImageSlider from '../components/imagesSlideShow/ImageSlider'
 import ProjectsSection from '../components/Projects/ProjectsSection'
 import ContactForm from '../components/contactSection/ContactForm'
-
+import Video from '../components/video/Video'
 export default function Home() {
   return (
     <>
@@ -12,6 +12,7 @@ export default function Home() {
       <WhatsAppIcon />
       <PhoneIcon />
       <ImageSlider />
+      <Video />
       <ProjectsSection />
       <ContactForm />
     </>
