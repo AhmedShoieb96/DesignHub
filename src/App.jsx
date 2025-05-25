@@ -5,7 +5,6 @@ import {
 } from 'react-router-dom';
 import Layout from './assets/components/layout/Layout';
 import './App.css';
-
 // Pages
 import Home from './assets/pages/Home';
 import AboutUs from './assets/pages/AboutUs';
@@ -47,6 +46,7 @@ function App() {
           <Route path="/3d" element={<ThreeDs />} />
           <Route path="/2d" element={<TowDs />} />
           <Route path="*" element={<NotFound />} />
+          {/* Internal Design Route */}
         </Route>
       </Routes>
     </Router>
