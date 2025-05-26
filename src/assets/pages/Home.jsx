@@ -4,7 +4,8 @@ import PhoneIcon from '../components/phoneIcon/PhoneIcon'
 import ImageSlider from '../components/imagesSlideShow/ImageSlider'
 import ProjectsSection from '../components/Projects/ProjectsSection'
 import ContactForm from '../components/contactSection/ContactSection'
-
+import ExteriorDesign from '../components/ExteriorDesign/ExteriorDesign'
+import Construction from '../components/Construction/Construction'
 export default function Home() {
   return (
     <>
@@ -12,6 +13,8 @@ export default function Home() {
       <WhatsAppIcon />
       <PhoneIcon />
       <ImageSlider />
+      <ExteriorDesign/>
+      <Construction/>
       <ProjectsSection />
       <ContactForm />
     </>
