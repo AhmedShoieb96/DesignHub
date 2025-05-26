@@ -15,7 +15,7 @@ import Exterior from './assets/pages/Exteriors'
 import Construction from './assets/pages/Constractions'
 import Blogs from './assets/pages/Blogs'
 import Contact from './assets/pages/Contact'
-import Projects from './assets/pages/Projects'
+
 import ExcursionSupervision from './assets/pages/ExcursionSupervision'
 import ThreeDs from './assets/pages/ThreeDs'
 import TowDs from './assets/pages/TowDs'
@@ -33,7 +33,7 @@ function App() {
             <Route path='/construction' element={<Construction />} />
             <Route path='/blogs' element={<Blogs />} />
             <Route path='/contact' element={<Contact />} />
-            <Route path='/projects' element={<Projects />} />
+            
             <Route path='/supervision' element={<ExcursionSupervision />} />
             <Route path='/3d' element={<ThreeDs />} />
             <Route path='/3d' element={<TowDs />} />

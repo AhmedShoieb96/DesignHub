@@ -39,7 +39,7 @@ export default function HomeSideBar() {
           onClick={() => setServicesOpen((prev) => !prev)}
         >
           <Button textOnly className="btn">
-          <Link to="/services" className="btn">Services</Link>
+          <Link  className="btn">Services</Link>
           </Button>
           <div className={`dropdownMenu ${servicesOpen ? 'show' : ''}`}>
             <Link to="/interior">Interior Design</Link>
@@ -57,7 +57,7 @@ export default function HomeSideBar() {
           onClick={() => setProjectsOpen((prev) => !prev)}
         >
           <Button textOnly className="btn">
-          <Link to="/projects" className="btn">Projects</Link>
+          <Link  className="btn">Projects</Link>
           </Button>
           <div className={`dropdownMenu ${projectsOpen ? 'show' : ''}`}>
             <Link to="/3d">3D</Link>
