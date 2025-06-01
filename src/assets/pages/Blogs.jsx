@@ -12,7 +12,7 @@ export default function Blogs() {
             <p>Welcome to the blogs page!</p>
             <p>Here you can find various articles and posts.</p>
             <p>Stay tuned for more updates!</p>
-        <TwoDDesign/>
+            <TwoDDesign/>
         </div>
         
 
