@@ -1,5 +1,5 @@
 import SharedHeroSection from "../components/SharedHeroSection/SharedHeroSection";
-import bed  from "../images/bed.jpg";
+
 import livingModern from '../images/design/modern/living.jpg';
 import masterModern from '../images/design/modern/masterModern.jpg';
 import childModern from '../images/design/modern/childmoder.jpg';

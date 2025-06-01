@@ -4,7 +4,7 @@ export default function Video() {
     <div className="video-container">
     
       
-   <video style={{width: '100%', height: 'auto'}} src={video} autoPlay loop/>
+   <video style={{width: '100%', height: 'auto'}} src={video} autoPlay loop muted/>
     </div>
   );
 }
