@@ -6,7 +6,7 @@ export default function Image({ src, alt, className = '' }) {
   const [loaded, setLoaded] = useState(false);
   const [error, setError] = useState(false);
   
-  // Reset loaded state when src changes
+  
   useEffect(() => {
     setLoaded(false);
     setError(false);
@@ -18,7 +18,7 @@ export default function Image({ src, alt, className = '' }) {
 
   const handleError = () => {
     setError(true);
-    setLoaded(true); // Mark as loaded to remove loading state
+    setLoaded(true); 
   };
 
   const classes = `image ${className} ${loaded ? 'loaded' : ''} ${error ? 'error' : ''}`.trim();
