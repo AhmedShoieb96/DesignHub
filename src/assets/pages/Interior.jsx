@@ -131,7 +131,7 @@ const designProcess = [
              
             </SharedHeroSection>    
              <div className="internal-design">
-      {/* Hero Section */}
+      
       <section className="hero-section">
         <div className="hero-content">
           <div className="hero-text">
@@ -162,7 +162,7 @@ const designProcess = [
         </div>
       </section>
 
-      {/* Services Grid */}
+      
       <section className="services-section">
         <div className="container">
           <div className="section-header">
@@ -188,7 +188,7 @@ const designProcess = [
         </div>
       </section>
 
-      {/* Process Section */}
+      
       <section className="process-section">
         <div className="container">
           <div className="section-header">
@@ -210,7 +210,7 @@ const designProcess = [
         </div>
       </section>
 
-      {/* Features Section */}
+      
       <section className="features-section">
         <div className="container">
           <div className="features-content">
