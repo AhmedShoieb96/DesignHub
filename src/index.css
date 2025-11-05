@@ -108,9 +108,7 @@ body {
   transform:translate(0px, -10px);
 }
 
-/* interior design css */
 
-/* Internal Design Component Styles */
 .internal-design {
   width: 100%;
   overflow-x: hidden;
@@ -122,7 +120,7 @@ body {
   padding: 0 20px;
 }
 
-/* Hero Section */
+
 .hero-section {
   padding: 80px 0;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
@@ -215,7 +213,7 @@ body {
   pointer-events: none;
 }
 
-/* Services Section */
+
 .services-section {
   padding: 100px 0;
   background: #fff;
@@ -322,7 +320,7 @@ body {
   left: 100%;
 }
 
-/* Process Section */
+
 .process-section {
   padding: 100px 0;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
@@ -380,7 +378,7 @@ body {
   background: linear-gradient(to bottom, #3abf95, #379db6);
 }
 
-/* Features Section */
+
 .features-section {
   padding: 100px 0;
   background: #fff;
@@ -488,7 +486,7 @@ body {
   margin: 0;
 }
 
-/* CTA Section */
+
 .cta-section {
   padding: 80px 0;
   background: linear-gradient(135deg, #379db6, #3abf95);
@@ -550,7 +548,7 @@ body {
   transform: translateY(-2px);
 }
 
-/* Responsive Design */
+
 @media (max-width: 1024px) {
   .hero-content {
     grid-template-columns: 1fr;
@@ -657,9 +655,7 @@ body {
     font-size: 2rem;
   }
 }
-  /* construction services */
-
-  /* Quality Section */
+  
 .quality-section {
   padding: 100px 0;
   background: #fff;
@@ -769,7 +765,7 @@ body {
 
 
 
-/* CTA Section */
+
 .cta-section {
   padding: 80px 0;
   background: linear-gradient(135deg, #379db6, #3abf95);
@@ -831,7 +827,7 @@ body {
   transform: translateY(-2px);
 }
 
-/* Responsive Design */
+
 @media (max-width: 1024px) {
   .hero-content {
     grid-template-columns: 1fr;
