@@ -11,7 +11,7 @@ import cafe from '../../images/sliderImages/cafe.jpg';
 import pharmacy from '../../images/sliderImages/pharmacy.jpg';
 
 export default function ImageSlider() {
-  // Array of images with titles
+  
   const slides = [
     { image: ketchen, title: "Kitchen Design" },
     { image: bathroom, title: "Bathroom Design" },
@@ -23,28 +23,23 @@ export default function ImageSlider() {
     { image: pharmacy, title: "Pharmacy Design" }
   ];
   
-  // State for tracking current slide
+  
   const [activeIndex, setActiveIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
   const [touchStart, setTouchStart] = useState(null);
   const [touchEnd, setTouchEnd] = useState(null);
   
-  // Function to navigate to next slide with wrapping - defined with useCallback
+  
   const nextSlide = useCallback(() => {
     setActiveIndex((current) => (current === slides.length - 1 ? 0 : current + 1));
   }, [slides.length]);
   
-  // Function to navigate to previous slide with wrapping
+  
   const prevSlide = useCallback(() => {
     setActiveIndex((current) => (current === 0 ? slides.length - 1 : current - 1));
   }, [slides.length]);
   
-  // Function to go to a specific slide
-  // const goToSlide = (index) => {
-  //   setActiveIndex(index);
-  // };
   
-  // Handle touch events for mobile swipe
   const handleTouchStart = (e) => {
     setTouchStart(e.targetTouches[0].clientX);
   };
@@ -70,16 +65,16 @@ export default function ImageSlider() {
     setTouchEnd(null);
   };
   
-  // Auto-play effect
+  
   useEffect(() => {
-    // Only advance slides if not paused
+    
     if (isPaused) return;
     
     const timer = setTimeout(() => {
       nextSlide();
     }, 4000);
     
-    // Clean up timer when component unmounts or dependencies change
+    
     return () => clearTimeout(timer);
   }, [activeIndex, isPaused, nextSlide]);
   
@@ -111,7 +106,7 @@ export default function ImageSlider() {
           ))}
         </div>
         
-        {/* Navigation buttons */}
+        
         <button 
           className="slider-nav slider-nav-prev" 
           onClick={prevSlide}
@@ -132,7 +127,7 @@ export default function ImageSlider() {
           </svg>
         </button>
         
-        {/* Progress bar */}
+        
         <div className="slider-progress-container">
           <div 
             className="slider-progress-bar" 
