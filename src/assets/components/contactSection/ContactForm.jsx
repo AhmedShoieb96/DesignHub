@@ -1,12 +1,9 @@
 import React, { useState } from 'react';
-import './ContactFormCss.css'; // Assuming you have a CSS file for styling
-// import { Phone } from 'lucide-react';
-
-const ContactSection = () => {
+import './ContactFormCss.css'; const ContactSection = () => {
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
-    email: '', // Added email field for better contact information
+    email: '', 
     message: ''
   });
   
