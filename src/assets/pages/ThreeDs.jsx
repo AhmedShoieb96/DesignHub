@@ -11,7 +11,7 @@ import {
   Maximize,
   Download,
 } from 'lucide-react'
-import './ThreeDs.css' // Assuming you have a CSS file for styles
+import './ThreeDs.css' 
 import commercial1 from '../images/design/تجاري/1 (2).jpg'
 import commercial2 from '../images/design/تجاري/cafe.jpg'
 import commercial3 from '../images/design/تجاري/2 (4).jpg'
@@ -65,7 +65,7 @@ export default function ThreeDs() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
     const [isLoading, setIsLoading] = useState(true)
     const [filter, setFilter] = useState('all')
-  // 3D Design specific project data
+  
   const projects = [
     {
       id: 1,
@@ -202,7 +202,7 @@ export default function ThreeDs() {
       </SharedHeroSection>
       <div className='threed-design-container'>
         Add commentMore actions
-        {/* Header Section */}
+        
         <div className='header-section'>
           <div className='header-content'>
             <h1 className='main-title'>3D Design </h1>
@@ -223,7 +223,7 @@ export default function ThreeDs() {
             </div>
           </div>
         </div>
-        {/* Projects Grid */}
+        
         <div className='projects-grid'>
           {filteredProjects.map((project) => (
             <div
@@ -253,11 +253,11 @@ export default function ThreeDs() {
             </div>
           ))}
         </div>
-        {/* Gallery Modal */}
+        
         {selectedProject && (
           <div className='gallery-modal'>
             <div className='modal-content'>
-              {/* Modal Header */}
+              
               <div className='modal-header'>
                 <div className='modal-title-section'>
                   <h2 className='modal-title'>{selectedProject.title}</h2>
@@ -269,7 +269,7 @@ export default function ThreeDs() {
                 </div>
               </div>
 
-              {/* Image Display */}
+              
               <div className='image-display'>
                 <img
                   src={selectedProject.images[currentImageIndex]}
@@ -279,7 +279,7 @@ export default function ThreeDs() {
                   className='main-image'
                 />
 
-                {/* Navigation */}
+                
                 <button onClick={prevImage} className='nav-btn nav-prev'>
                   <ChevronLeft className='nav-icon' />
                 </button>
@@ -287,13 +287,13 @@ export default function ThreeDs() {
                   <ChevronRight className='nav-icon' />
                 </button>
 
-                {/* Image Counter */}
+                
                 <div className='image-counter'>
                   {currentImageIndex + 1} / {selectedProject.images.length}
                 </div>
               </div>
 
-              {/* Thumbnail Strip */}
+              
               <div className='thumbnail-strip'>
                 {selectedProject.images.map((image, index) => (
                   <button
