@@ -11,7 +11,6 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer__container">
-        {/* Logo & About */}
         <div className="footer__section footer__about">
           <img src={logo} alt="DesignHub logo" className="footer__logo" />
           <p className="footer__text">
@@ -47,10 +46,8 @@ export default function Footer() {
             </a>
           </div>
         </div>
-
-        {/* Quick Links */}
         
-        {/* Contact Information */}
+        
         <div className="footer__section footer__social">
           <h4 className="footer__heading">Get in Touch</h4>
           <div className="footer__contact">
@@ -68,7 +65,7 @@ export default function Footer() {
             </div>
           </div>
           
-          {/* Newsletter Subscription */}
+          
           <div className="footer__newsletter">
             <h4 className="footer__heading">Newsletter</h4>
             <p className="footer__text">Subscribe for design tips and updates</p>
@@ -90,7 +87,7 @@ export default function Footer() {
           </div>
         </div>
         
-        {/* Company Information */}
+        
         
       </div>
 
