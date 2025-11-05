@@ -72,7 +72,7 @@ export default function Exteriors() {
              
             </SharedHeroSection>
             <div className="exterior-design">
-      {/* Hero Section */}
+      
       <section className="hero-section">
         <div className="hero-content">
           <div className="hero-text">
@@ -104,7 +104,7 @@ export default function Exteriors() {
         </div>
       </section>
 
-      {/* Services Grid */}
+      
       <section className="services-section">
         <div className="container">
           <div className="section-header">
@@ -126,7 +126,7 @@ export default function Exteriors() {
         </div>
       </section>
 
-      {/* Process Section */}
+      
       <section className="process-section">
         <div className="container">
           <div className="section-header">
@@ -148,7 +148,7 @@ export default function Exteriors() {
         </div>
       </section>
 
-      {/* Features Section */}
+      
       <section className="features-section">
         <div className="container">
           <div className="features-content">
@@ -188,8 +188,6 @@ export default function Exteriors() {
           </div>
         </div>
       </section>
-
-      {/* Call to Action */}
       <section className="cta-section">
         <div className="container">
           <div className="cta-content">
