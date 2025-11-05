@@ -1,4 +1,4 @@
-/* Root footer wrapper */
+
 .footer {
   background-color: #379db6;
   color: #333;
@@ -10,7 +10,7 @@
   margin-top: 30px;
 }
 
-/* Main container */
+
 .footer__container {
   max-width: 1200px;
   width: 100%;
@@ -23,7 +23,7 @@
   background-color: #f9fafb;
 }
 
-/* Each of the sections */
+
 .footer__section {
   flex: 1 1 250px;
   margin-bottom: 1.5rem;
@@ -46,7 +46,7 @@
   flex: 1 1 300px;
 }
 
-/* Logo / About */
+
 .footer__about .footer__logo {
   width: 130px;
   margin-bottom: 1.5rem;
@@ -64,7 +64,7 @@
   margin-bottom: 1.5rem;
 }
 
-/* Section headings */
+
 .footer__heading {
   position: relative;
   font-size: 1.15rem;
@@ -85,7 +85,7 @@
   border-radius: 2px;
 }
 
-/* Links list */
+
 .footer__list {
   list-style: none;
   padding: 0;
@@ -117,7 +117,7 @@
   font-weight: bold;
 }
 
-/* Social icons */
+
 .footer__icons {
   display: flex;
   gap: 1rem;
@@ -148,7 +148,7 @@
   font-size: 1.2rem;
 }
 
-/* Contact info */
+
 .footer__contact {
   font-size: 0.95rem;
   color: #4b5563;
@@ -179,7 +179,7 @@
   margin-top: 0.25rem;
 }
 
-/* Newsletter form */
+
 .footer__newsletter {
   margin-top: 1rem;
 }
@@ -218,7 +218,7 @@
   opacity: 0.9;
 }
 
-/* Company info section */
+
 .footer__company-info {
   margin-top: 1rem;
   line-height: 1.7;
@@ -253,7 +253,7 @@
   color: #379db6;
 }
 
-/* Bottom bar */
+
 .footer__bottom {
   text-align: center;
   font-size: 0.9rem;
@@ -265,7 +265,7 @@
   width: 100%;
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 1024px) {
   .footer__container {
     gap: 2rem;
