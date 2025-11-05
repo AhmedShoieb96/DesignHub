@@ -73,7 +73,7 @@ export default function Constractions() {
                 
             </SharedHeroSection>
             <div className="construction">
-      {/* Hero Section */}
+      
       <section className="hero-section">
         <div className="hero-content">
           <div className="hero-text">
@@ -105,7 +105,7 @@ export default function Constractions() {
         </div>
       </section>
 
-      {/* Services Grid */}
+      
       <section className="services-section">
         <div className="container">
           <div className="section-header">
@@ -126,8 +126,6 @@ export default function Constractions() {
           </div>
         </div>
       </section>
-
-      {/* Process Section */}
       <section className="process-section">
         <div className="container">
           <div className="section-header">
@@ -149,7 +147,7 @@ export default function Constractions() {
         </div>
       </section>
 
-      {/* Quality Section */}
+      
       <section className="quality-section">
         <div className="container">
           <div className="quality-content">
@@ -190,7 +188,7 @@ export default function Constractions() {
         </div>
       </section>
 
-      {/* Call to Action */}
+      
       <section className="cta-section">
         <div className="container">
           <div className="cta-content">
