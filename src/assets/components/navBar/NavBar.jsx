@@ -31,7 +31,7 @@ export default function HomeSideBar() {
           </Button>
         </li>
 
-        {/* SERVICES DROPDOWN */}
+        
         <li
           className="dropdown"
           onMouseHover={() => setServicesOpen(true)}
@@ -49,7 +49,7 @@ export default function HomeSideBar() {
           </div>
         </li>
 
-        {/* PROJECTS DROPDOWN */}
+        
         <li
           className="dropdown"
           onMouseEnter={() => setProjectsOpen(true)}
